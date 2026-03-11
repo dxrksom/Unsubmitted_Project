@@ -1374,7 +1374,10 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.03.11-09.42.37:024][660]AssetCheck: New page: Asset Save: M_Chair
 [2026.03.11-09.42.37:024][660]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 [2026.03.11-09.44.56:263][524]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
 [2026.03.11-09.44.56:263][524]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
 [2026.03.11-09.45.14:110][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
@@ -1992,4 +1995,7 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.03.11-09.45.17:351][579]LogD3D12RHI: ~FD3D12DynamicRHI
 [2026.03.11-09.45.17:411][579]LogExit: Exiting.
 [2026.03.11-09.45.17:436][579]Log file closed, 03/11/26 16:45:17
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
