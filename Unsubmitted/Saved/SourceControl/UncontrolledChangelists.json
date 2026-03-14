@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/UE/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap",
-				"D:/UE/Unsubmitted_Project/Unsubmitted/Content/StarterContent/Props/SM_Door.uasset"
+				"D:/UE/Unsubmitted_Project/Unsubmitted/Content/StarterContent/Props/SM_Door.uasset",
+				"D:/UE/Unsubmitted_Project/Unsubmitted/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
 			]
 		}
 	]
