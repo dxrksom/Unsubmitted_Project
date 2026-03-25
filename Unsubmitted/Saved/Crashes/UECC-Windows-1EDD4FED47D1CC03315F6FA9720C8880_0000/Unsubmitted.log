@@ -2041,32 +2041,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2026.03.25-09.07.45:076][808]LogExit: Editor shut down
 [2026.03.25-09.07.45:080][808]LogExit: Transaction tracking system shut down
 [2026.03.25-09.07.45:086][808]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
-[2026.03.25-09.08.11:356][808]LogWindows: Error: === Critical error: ===
-[2026.03.25-09.08.11:356][808]LogWindows: Error: 
-[2026.03.25-09.08.11:356][808]LogWindows: Error: Fatal error!
-[2026.03.25-09.08.11:356][808]LogWindows: Error: 
-[2026.03.25-09.08.11:356][808]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
-[2026.03.25-09.08.11:356][808]LogWindows: Error: 
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5eac760 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8bb62a650 UnrealEditor-Engine.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5aa6070 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5ddb99b UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5dd40ad UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5cc024c UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5cc0fae UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5e0d3b4 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff8d5ca1f37 UnrealEditor-CoreUObject.dll!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff7938305e4 UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff79382fc92 UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff79383bca8 UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff79383d31b UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff79383d37a UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff793840854 UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff793856984 UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ff793859d7a UnrealEditor.exe!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: [Callstack] 0x00007ffa03bce8d7 KERNEL32.DLL!UnknownFunction []
-[2026.03.25-09.08.11:356][808]LogWindows: Error: 
-[2026.03.25-09.08.11:358][808]LogExit: Executing StaticShutdownAfterError
-[2026.03.25-09.08.11:362][808]LogWindows: FPlatformMisc::RequestExit(1, LaunchWindowsStartup.ExceptionHandler)
-[2026.03.25-09.08.11:362][808]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, LaunchWindowsStartup.ExceptionHandler)
-[2026.03.25-09.08.11:362][808]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
