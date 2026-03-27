@@ -7093,3 +7093,1277 @@ Script Stack (0 frames) :
 [2026.03.27-06.37.58:405][978]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 17.1 sec)
 [2026.03.27-06.37.58:410][978]AssetCheck: New page: Asset Save: Pokko_Working
 [2026.03.27-06.37.58:410][978]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.38.57:741][667]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.38.57:867][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.03.27-06.38.57:939][667]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.38.57:939][667]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working4CAC5DE1466B66D49D7CDF868EE42B63.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.38.57:947][667]LogFileHelpers: Saving map 'Pokko_Working' took 0.105
+[2026.03.27-06.38.57:957][667]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 17.3 sec)
+[2026.03.27-06.38.57:960][667]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.38.57:960][667]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.38.58:254][680]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.38.58:297][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.03.27-06.38.59:757][743]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.38.59:763][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.38.59:763][743]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:38:59 PM)
+[2026.03.27-06.38.59:763][743]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.38.59:785][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020755s)
+[2026.03.27-06.38.59:785][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.020825s)
+[2026.03.27-06.38.59:798][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.03.27-06.38.59:805][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.38.59:805][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.38.59:806][743]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.38.59:806][743]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2026.03.27-06.38.59:806][743]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.38.59:806][743]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.38.59:806][743]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.38.59:807][743]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.38.59:807][743]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.38.59:807][743]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.38.59:809][743]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.39.00:042][743]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.39.00:042][743]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.39.00:042][743]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.39.00:042][743]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.39.00:042][743]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2026.03.27-06.39.00:042][743]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2026.03.27-06.39.00:044][743]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2026.03.27-06.39.00:044][743]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2026.03.27-06.39.00:044][743]LogInit: FAudioDevice initialized with ID 73.
+[2026.03.27-06.39.00:044][743]LogAudio: Display: Audio Device (ID: 73) registered with world 'Pokko_Working'.
+[2026.03.27-06.39.00:044][743]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2026.03.27-06.39.00:144][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.00:144][743]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.39.00:150][743]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.39.00
+[2026.03.27-06.39.00:151][743]LogWorld: Bringing up level for play took: 0.006059
+[2026.03.27-06.39.00:153][743]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2026.03.27-06.39.00:157][743]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.39.00:166][743]PIE: Server logged in
+[2026.03.27-06.39.00:172][743]PIE: Play in editor total start time 0.41 seconds.
+[2026.03.27-06.39.00:217][743]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.39.01:250][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.01:251][787]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.39.03:230][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.03:230][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.03:230][869]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1
+	Pokko_Working_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.Pokko_Working_C_26
+	Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0B03
+[2026.03.27-06.39.03:231][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1". Node:  Destroy Actor Graph:  EventGraph Function:  Execute Ubergraph Pokko Working Blueprint:  Pokko_Working
+[2026.03.27-06.39.03:257][870]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.39.07:751][ 49]LogLevelSequence: Starting new camera cut: 'BP_Bed_C_1'
+[2026.03.27-06.39.11:231][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.11:231][176]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.39.11:231][176]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.39.11:242][176]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.39.11:244][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.39.11:250][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.39.11:259][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.39.11:280][176]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-06.39.11:280][176]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2026.03.27-06.39.11:280][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2026.03.27-06.39.11:290][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2026.03.27-06.39.11:301][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.03.27-06.39.11:671][177]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2026.03.27-06.39.38:823][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.39.38:983][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.03.27-06.39.39:066][504]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.39.39:066][504]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working51459BDC4F036D01E49E6A9CBEC36F77.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.39.39:076][504]LogFileHelpers: Saving map 'Pokko_Working' took 0.122
+[2026.03.27-06.39.39:085][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 261 ms (total: 17.6 sec)
+[2026.03.27-06.39.39:088][504]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.39.39:088][504]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.39.52:507][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.39.52:650][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.03.27-06.39.52:728][ 88]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.39.52:728][ 88]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working512B65AD4C2778886B37CDB18B4C05C9.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.39.52:736][ 88]LogFileHelpers: Saving map 'Pokko_Working' took 0.118
+[2026.03.27-06.39.52:745][ 88]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 17.8 sec)
+[2026.03.27-06.39.52:749][ 88]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.39.52:749][ 88]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.39.53:171][106]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.39.53:215][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.27-06.39.54:449][152]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.39.54:455][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.39.54:455][152]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:39:54 PM)
+[2026.03.27-06.39.54:456][152]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.39.54:476][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020276s)
+[2026.03.27-06.39.54:476][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.020396s)
+[2026.03.27-06.39.54:491][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.03.27-06.39.54:499][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.39.54:499][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.39.54:499][152]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.39.54:500][152]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2026.03.27-06.39.54:500][152]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.39.54:500][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.39.54:500][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.39.54:500][152]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.39.54:500][152]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.39.54:500][152]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.39.54:503][152]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.39.54:738][152]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.39.54:738][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.39.54:738][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.39.54:738][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.39.54:739][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2026.03.27-06.39.54:739][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=74
+[2026.03.27-06.39.54:741][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2026.03.27-06.39.54:741][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2026.03.27-06.39.54:741][152]LogInit: FAudioDevice initialized with ID 74.
+[2026.03.27-06.39.54:741][152]LogAudio: Display: Audio Device (ID: 74) registered with world 'Pokko_Working'.
+[2026.03.27-06.39.54:742][152]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2026.03.27-06.39.54:865][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.54:865][152]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.39.54:872][152]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.39.54
+[2026.03.27-06.39.54:873][152]LogWorld: Bringing up level for play took: 0.008384
+[2026.03.27-06.39.54:878][152]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2026.03.27-06.39.54:883][152]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.39.54:892][152]PIE: Server logged in
+[2026.03.27-06.39.54:899][152]PIE: Play in editor total start time 0.444 seconds.
+[2026.03.27-06.39.54:942][152]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.39.55:984][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.55:984][195]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.39.57:968][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.57:968][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.39.57:968][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1
+	Pokko_Working_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.Pokko_Working_C_27
+	Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0B03
+[2026.03.27-06.39.57:968][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1". Node:  Destroy Actor Graph:  EventGraph Function:  Execute Ubergraph Pokko Working Blueprint:  Pokko_Working
+[2026.03.27-06.39.57:999][274]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.40.02:499][446]LogLevelSequence: Starting new camera cut: 'BP_Bed_C_1'
+[2026.03.27-06.40.10:380][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.40.10:380][722]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.40.10:380][722]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.40.10:391][722]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.40.10:392][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.40.10:398][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.40.10:407][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.40.10:424][722]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-06.40.10:425][722]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2026.03.27-06.40.10:425][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2026.03.27-06.40.10:439][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2026.03.27-06.40.10:456][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.03.27-06.40.10:621][723]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2026.03.27-06.41.24:844][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.41.24:996][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.03.27-06.41.25:081][510]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.41.25:081][510]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working7C327A584A6222C77A64B2A92516F4F5.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.41.25:091][510]LogFileHelpers: Saving map 'Pokko_Working' took 0.125
+[2026.03.27-06.41.25:101][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 18.1 sec)
+[2026.03.27-06.41.25:103][510]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.41.25:103][510]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.41.29:247][706]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.41.29:380][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.03.27-06.41.29:453][706]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.41.29:453][706]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working410398DB4E19640D7C8502BA0CAA0362.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.41.29:461][706]LogFileHelpers: Saving map 'Pokko_Working' took 0.111
+[2026.03.27-06.41.29:471][706]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms (total: 18.3 sec)
+[2026.03.27-06.41.29:474][706]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.41.29:474][706]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.41.38:159][ 43]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.41.38:204][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.03.27-06.41.38:952][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.41.39:097][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.03.27-06.41.39:182][ 70]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.41.39:182][ 70]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working14F0557A4FD43B5D06EBF5B54C9AAC1D.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.41.39:193][ 70]LogFileHelpers: Saving map 'Pokko_Working' took 0.122
+[2026.03.27-06.41.39:204][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 18.5 sec)
+[2026.03.27-06.41.39:208][ 70]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.41.39:208][ 70]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.41.41:354][178]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.41.41:363][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.41.41:363][178]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:41:41 PM)
+[2026.03.27-06.41.41:363][178]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.41.41:386][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023167s)
+[2026.03.27-06.41.41:386][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.023216s)
+[2026.03.27-06.41.41:401][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.03.27-06.41.41:403][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.41.41:403][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.41.41:404][178]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.41.41:404][178]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2026.03.27-06.41.41:404][178]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.41.41:404][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.41.41:404][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.41.41:405][178]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.41.41:405][178]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.41.41:405][178]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.41.41:407][178]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.41.41:641][178]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.41.41:642][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.41.41:642][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.41.41:642][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.41.41:642][178]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2026.03.27-06.41.41:642][178]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=75
+[2026.03.27-06.41.41:645][178]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2026.03.27-06.41.41:645][178]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2026.03.27-06.41.41:645][178]LogInit: FAudioDevice initialized with ID 75.
+[2026.03.27-06.41.41:645][178]LogAudio: Display: Audio Device (ID: 75) registered with world 'Pokko_Working'.
+[2026.03.27-06.41.41:645][178]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 75
+[2026.03.27-06.41.41:741][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.41:742][178]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.41.41:749][178]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.41.41
+[2026.03.27-06.41.41:750][178]LogWorld: Bringing up level for play took: 0.007429
+[2026.03.27-06.41.41:753][178]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2026.03.27-06.41.41:757][178]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.41.41:767][178]PIE: Server logged in
+[2026.03.27-06.41.41:778][178]PIE: Play in editor total start time 0.415 seconds.
+[2026.03.27-06.41.41:827][178]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.41.43:374][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.43:374][243]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.41.45:353][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.45:377][335]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.41.49:886][542]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.41.53:006][687]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.41.53:006][687]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.41.54:064][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.54:064][735]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.41.54:065][735]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.41.54:072][735]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.41.54:072][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.41.54:076][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.41.54:081][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.41.54:106][735]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 75
+[2026.03.27-06.41.54:106][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2026.03.27-06.41.54:112][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2026.03.27-06.41.54:123][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.03.27-06.41.54:211][736]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2026.03.27-06.41.55:349][791]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.41.55:357][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.41.55:357][791]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:41:55 PM)
+[2026.03.27-06.41.55:357][791]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.41.55:380][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021829s)
+[2026.03.27-06.41.55:380][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.021874s)
+[2026.03.27-06.41.55:394][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.03.27-06.41.55:400][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.41.55:400][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.41.55:400][791]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.41.55:400][791]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2026.03.27-06.41.55:400][791]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.41.55:401][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.41.55:401][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.41.55:401][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.41.55:401][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.41.55:401][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.41.55:402][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.41.55:639][791]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.41.55:639][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.41.55:639][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.41.55:639][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.41.55:640][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2026.03.27-06.41.55:640][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2026.03.27-06.41.55:643][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2026.03.27-06.41.55:643][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2026.03.27-06.41.55:643][791]LogInit: FAudioDevice initialized with ID 76.
+[2026.03.27-06.41.55:643][791]LogAudio: Display: Audio Device (ID: 76) registered with world 'Pokko_Working'.
+[2026.03.27-06.41.55:643][791]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 76
+[2026.03.27-06.41.55:720][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.55:720][791]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.41.55:726][791]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.41.55
+[2026.03.27-06.41.55:726][791]LogWorld: Bringing up level for play took: 0.005259
+[2026.03.27-06.41.55:729][791]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2026.03.27-06.41.55:733][791]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.41.55:740][791]PIE: Server logged in
+[2026.03.27-06.41.55:748][791]PIE: Play in editor total start time 0.391 seconds.
+[2026.03.27-06.41.55:789][791]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.41.56:948][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.56:948][841]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.41.58:936][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.41.58:954][931]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.42.03:459][140]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.42.06:158][261]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.42.06:158][261]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.42.40:585][864]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.42.48:902][251]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8868.139648
+[2026.03.27-06.42.49:303][270]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-06.42.49:303][270]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8868.523438, Update Interval: 329.330719
+[2026.03.27-06.43.00:151][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.43.10:562][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.43.10:562][248]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.43.10:563][248]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.43.10:570][248]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.43.10:572][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.43.10:577][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.43.10:584][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.43.10:609][248]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 76
+[2026.03.27-06.43.10:609][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2026.03.27-06.43.10:616][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2026.03.27-06.43.10:629][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.03.27-06.43.10:716][249]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2026.03.27-06.43.15:420][518]LogSlate: Window 'Message Log' being destroyed
+[2026.03.27-06.43.15:428][518]LogSlate: Window 'Message Log' being destroyed
+[2026.03.27-06.45.09:499][933]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.45.09:546][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.03.27-06.45.10:006][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.45.10:154][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.03.27-06.45.10:234][946]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.45.10:235][946]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working18AEFEF8492CCA1165E8CDA878F76EFA.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.45.10:243][946]LogFileHelpers: Saving map 'Pokko_Working' took 0.117
+[2026.03.27-06.45.10:251][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 18.8 sec)
+[2026.03.27-06.45.10:256][946]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.45.10:256][946]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.45.10:879][977]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.45.10:887][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.45.10:887][977]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:45:10 PM)
+[2026.03.27-06.45.10:887][977]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.45.10:912][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024264s)
+[2026.03.27-06.45.10:912][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.024307s)
+[2026.03.27-06.45.10:926][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.03.27-06.45.10:929][977]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.45.10:929][977]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.45.10:930][977]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.45.10:930][977]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2026.03.27-06.45.10:930][977]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.45.10:930][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.45.10:930][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.45.10:930][977]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.45.10:930][977]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.45.10:930][977]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.45.10:933][977]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.45.11:171][977]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.45.11:171][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.45.11:171][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.45.11:171][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.45.11:172][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2026.03.27-06.45.11:172][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=77
+[2026.03.27-06.45.11:174][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2026.03.27-06.45.11:174][977]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2026.03.27-06.45.11:174][977]LogInit: FAudioDevice initialized with ID 77.
+[2026.03.27-06.45.11:174][977]LogAudio: Display: Audio Device (ID: 77) registered with world 'Pokko_Working'.
+[2026.03.27-06.45.11:174][977]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 77
+[2026.03.27-06.45.11:257][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.11:257][977]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.45.11:264][977]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.45.11
+[2026.03.27-06.45.11:264][977]LogWorld: Bringing up level for play took: 0.006637
+[2026.03.27-06.45.11:268][977]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2026.03.27-06.45.11:270][977]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.45.11:278][977]PIE: Server logged in
+[2026.03.27-06.45.11:285][977]PIE: Play in editor total start time 0.398 seconds.
+[2026.03.27-06.45.11:338][977]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.45.12:314][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.12:315][ 21]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.45.14:303][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.14:303][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.14:304][116]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1
+	Pokko_Working_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.Pokko_Working_C_29
+	Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0B94
+[2026.03.27-06.45.14:304][116]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue_1". Node:  Destroy Actor Graph:  EventGraph Function:  Execute Ubergraph Pokko Working Blueprint:  Pokko_Working
+[2026.03.27-06.45.14:324][117]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.45.18:831][329]LogLevelSequence: Starting new camera cut: 'BP_Bed_C_1'
+[2026.03.27-06.45.26:209][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.26:209][673]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.45.26:212][673]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.45.26:220][673]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.45.26:221][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.45.26:225][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.45.26:239][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.45.26:259][673]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 77
+[2026.03.27-06.45.26:259][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2026.03.27-06.45.26:263][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2026.03.27-06.45.26:274][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.03.27-06.45.26:564][674]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2026.03.27-06.45.38:592][276]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.45.38:651][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.03.27-06.45.39:045][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.45.39:191][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.03.27-06.45.39:275][287]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.45.39:275][287]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working0553D5104A38CAEE47634291E48CF47A.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.45.39:283][287]LogFileHelpers: Saving map 'Pokko_Working' took 0.119
+[2026.03.27-06.45.39:297][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 19.0 sec)
+[2026.03.27-06.45.39:301][287]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.45.39:301][287]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.45.39:652][304]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.45.39:658][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.45.39:658][304]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:45:39 PM)
+[2026.03.27-06.45.39:658][304]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.45.39:683][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024554s)
+[2026.03.27-06.45.39:683][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.024605s)
+[2026.03.27-06.45.39:698][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.03.27-06.45.39:700][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.45.39:700][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.45.39:700][304]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.45.39:701][304]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2026.03.27-06.45.39:701][304]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.45.39:701][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.45.39:701][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.45.39:701][304]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.45.39:701][304]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.45.39:701][304]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.45.39:703][304]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.45.39:948][304]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.45.39:949][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.45.39:949][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.45.39:949][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.45.39:949][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2026.03.27-06.45.39:949][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2026.03.27-06.45.39:952][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2026.03.27-06.45.39:952][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2026.03.27-06.45.39:952][304]LogInit: FAudioDevice initialized with ID 78.
+[2026.03.27-06.45.39:952][304]LogAudio: Display: Audio Device (ID: 78) registered with world 'Pokko_Working'.
+[2026.03.27-06.45.39:952][304]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 78
+[2026.03.27-06.45.40:051][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.40:051][304]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.45.40:059][304]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.45.40
+[2026.03.27-06.45.40:060][304]LogWorld: Bringing up level for play took: 0.008212
+[2026.03.27-06.45.40:063][304]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2026.03.27-06.45.40:067][304]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.45.40:076][304]PIE: Server logged in
+[2026.03.27-06.45.40:084][304]PIE: Play in editor total start time 0.427 seconds.
+[2026.03.27-06.45.40:138][304]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.45.41:191][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.41:192][350]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.45.43:171][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.45.43:190][443]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.45.47:708][664]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.45.49:916][768]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.45.49:916][768]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.46.23:842][409]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.46.39:835][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.46.48:998][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.46.48:998][625]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.46.48:999][625]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.46.49:006][625]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.46.49:007][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.46.49:013][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.46.49:022][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.46.49:044][625]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-06.46.49:044][625]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 78
+[2026.03.27-06.46.49:044][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2026.03.27-06.46.49:050][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2026.03.27-06.46.49:061][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.03.27-06.46.49:148][626]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2026.03.27-06.47.05:861][586]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.47.05:905][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.03.27-06.47.06:332][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.47.06:482][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.03.27-06.47.06:569][599]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.47.06:570][599]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working48EA48D5470D5A26474B73B398D2BCF3.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.47.06:578][599]LogFileHelpers: Saving map 'Pokko_Working' took 0.126
+[2026.03.27-06.47.06:587][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 19.3 sec)
+[2026.03.27-06.47.06:592][599]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.47.06:592][599]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.47.07:297][627]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.47.07:303][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.47.07:303][627]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:47:07 PM)
+[2026.03.27-06.47.07:304][627]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.47.07:328][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024053s)
+[2026.03.27-06.47.07:328][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.024115s)
+[2026.03.27-06.47.07:343][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.03.27-06.47.07:345][627]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.47.07:345][627]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.47.07:346][627]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.47.07:346][627]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2026.03.27-06.47.07:346][627]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.47.07:346][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.47.07:346][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.47.07:346][627]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.47.07:346][627]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.47.07:346][627]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.47.07:349][627]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.47.07:591][627]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.47.07:591][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.47.07:592][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.47.07:592][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.47.07:593][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2026.03.27-06.47.07:593][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=79
+[2026.03.27-06.47.07:596][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2026.03.27-06.47.07:596][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2026.03.27-06.47.07:596][627]LogInit: FAudioDevice initialized with ID 79.
+[2026.03.27-06.47.07:596][627]LogAudio: Display: Audio Device (ID: 79) registered with world 'Pokko_Working'.
+[2026.03.27-06.47.07:596][627]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 79
+[2026.03.27-06.47.07:681][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.47.07:681][627]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.47.07:687][627]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.47.07
+[2026.03.27-06.47.07:687][627]LogWorld: Bringing up level for play took: 0.005882
+[2026.03.27-06.47.07:689][627]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2026.03.27-06.47.07:693][627]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.47.07:701][627]PIE: Server logged in
+[2026.03.27-06.47.07:710][627]PIE: Play in editor total start time 0.406 seconds.
+[2026.03.27-06.47.07:744][627]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.47.08:815][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.47.08:816][683]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.47.10:798][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.47.10:817][793]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.47.15:318][ 41]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.47.17:629][168]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.47.17:629][168]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.47.50:808][ 16]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.48.05:191][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.48.12:011][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.48.12:011][184]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.48.12:012][184]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.48.12:022][184]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.48.12:023][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.48.12:030][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.48.12:039][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.48.12:057][184]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 79
+[2026.03.27-06.48.12:058][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2026.03.27-06.48.12:065][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2026.03.27-06.48.12:073][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.03.27-06.48.12:155][185]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2026.03.27-06.48.29:223][ 86]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.48.29:269][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.27-06.48.29:705][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.48.29:857][100]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.03.27-06.48.29:942][100]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.48.29:942][100]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working5F858AB449EFF33D24167C9FDBF55370.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.48.29:950][100]LogFileHelpers: Saving map 'Pokko_Working' took 0.122
+[2026.03.27-06.48.29:959][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 19.5 sec)
+[2026.03.27-06.48.29:963][100]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.48.29:963][100]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.48.41:232][728]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.48.41:273][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.03.27-06.48.41:908][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.48.42:042][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.03.27-06.48.42:124][753]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.48.42:124][753]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_WorkingF33352244E25C8D9B4746A845B9C9C15.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.48.42:133][753]LogFileHelpers: Saving map 'Pokko_Working' took 0.120
+[2026.03.27-06.48.42:143][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 19.8 sec)
+[2026.03.27-06.48.42:148][753]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.48.42:148][753]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.48.42:883][795]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.48.42:890][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.48.42:890][795]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:48:42 PM)
+[2026.03.27-06.48.42:890][795]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.48.42:914][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023566s)
+[2026.03.27-06.48.42:914][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.023616s)
+[2026.03.27-06.48.42:928][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.03.27-06.48.42:931][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.48.42:931][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.48.42:931][795]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.48.42:932][795]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2026.03.27-06.48.42:932][795]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.48.42:932][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.48.42:932][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.48.42:932][795]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.48.42:932][795]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.48.42:932][795]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.48.42:934][795]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.48.43:172][795]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.48.43:173][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.48.43:173][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.48.43:173][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.48.43:173][795]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2026.03.27-06.48.43:173][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=80
+[2026.03.27-06.48.43:176][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2026.03.27-06.48.43:176][795]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2026.03.27-06.48.43:176][795]LogInit: FAudioDevice initialized with ID 80.
+[2026.03.27-06.48.43:176][795]LogAudio: Display: Audio Device (ID: 80) registered with world 'Pokko_Working'.
+[2026.03.27-06.48.43:176][795]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 80
+[2026.03.27-06.48.43:256][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.48.43:256][795]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.48.43:263][795]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.48.43
+[2026.03.27-06.48.43:264][795]LogWorld: Bringing up level for play took: 0.006022
+[2026.03.27-06.48.43:266][795]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2026.03.27-06.48.43:269][795]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.48.43:277][795]PIE: Server logged in
+[2026.03.27-06.48.43:286][795]PIE: Play in editor total start time 0.396 seconds.
+[2026.03.27-06.48.43:324][795]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.48.44:567][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.48.44:567][861]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.48.46:560][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.48.46:577][974]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.48.51:075][227]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.48.53:375][357]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.48.53:375][357]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.49.10:542][340]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9249.823242
+[2026.03.27-06.49.10:906][361]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-06.49.10:906][361]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9250.168945, Update Interval: 313.352448
+[2026.03.27-06.49.28:157][339]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.49.42:797][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.49.56:325][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.49.56:325][920]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.49.56:326][920]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.49.56:334][920]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.49.56:335][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.49.56:342][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.49.56:349][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.49.56:376][920]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 80
+[2026.03.27-06.49.56:376][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2026.03.27-06.49.56:384][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2026.03.27-06.49.56:398][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.03.27-06.49.56:479][921]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2026.03.27-06.50.45:204][809]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: PaperSpriteComponent /Game/Levels/Pokko_Working.Pokko_Working:PersistentLevel.PaperSpriteActor_1.RenderComponent, from: Remove from navoctree)
+[2026.03.27-06.50.46:892][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.03.27-06.50.47:541][909]LogSlate: Window 'Save Content' being destroyed
+[2026.03.27-06.50.47:553][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.50.47:757][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.27-06.50.47:833][909]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.50.47:833][909]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working0ABEF9CD481E8780859B6098251E7B53.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.50.47:841][909]LogFileHelpers: Saving map 'Pokko_Working' took 0.113
+[2026.03.27-06.50.47:867][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 20.1 sec)
+[2026.03.27-06.50.47:869][909]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.50.47:869][909]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.50.49:050][979]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.50.49:055][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.50.49:055][979]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:50:49 PM)
+[2026.03.27-06.50.49:055][979]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.50.49:079][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023594s)
+[2026.03.27-06.50.49:079][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.023640s)
+[2026.03.27-06.50.49:094][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.27-06.50.49:097][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.50.49:097][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.50.49:098][979]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.50.49:098][979]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2026.03.27-06.50.49:099][979]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.50.49:099][979]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.50.49:099][979]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.50.49:099][979]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.50.49:099][979]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.50.49:099][979]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.50.49:101][979]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.50.49:346][979]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.50.49:346][979]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.50.49:346][979]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.50.49:346][979]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.50.49:347][979]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=81
+[2026.03.27-06.50.49:347][979]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=81
+[2026.03.27-06.50.49:349][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=81
+[2026.03.27-06.50.49:349][979]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=81
+[2026.03.27-06.50.49:349][979]LogInit: FAudioDevice initialized with ID 81.
+[2026.03.27-06.50.49:349][979]LogAudio: Display: Audio Device (ID: 81) registered with world 'Pokko_Working'.
+[2026.03.27-06.50.49:349][979]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 81
+[2026.03.27-06.50.49:432][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.50.49:433][979]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.50.49:439][979]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.50.49
+[2026.03.27-06.50.49:440][979]LogWorld: Bringing up level for play took: 0.006264
+[2026.03.27-06.50.49:442][979]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2026.03.27-06.50.49:446][979]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.50.49:454][979]PIE: Server logged in
+[2026.03.27-06.50.49:464][979]PIE: Play in editor total start time 0.41 seconds.
+[2026.03.27-06.50.49:554][979]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.50.52:797][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.50.52:798][172]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.50.54:764][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.50.54:780][291]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.50.59:301][562]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.51.01:127][671]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.51.01:127][671]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.51.36:797][809]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.51.56:973][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.52.12:137][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.52.12:137][925]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.52.12:138][925]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.52.12:146][925]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.52.12:147][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.52.12:151][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.52.12:158][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.52.12:179][925]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-06.52.12:179][925]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 81
+[2026.03.27-06.52.12:179][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2026.03.27-06.52.12:186][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2026.03.27-06.52.12:199][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.03.27-06.52.12:263][926]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2026.03.27-06.52.32:676][ 71]LogSlate: Window 'Message Log' being destroyed
+[2026.03.27-06.52.32:686][ 71]LogSlate: Window 'Message Log' being destroyed
+[2026.03.27-06.53.36:221][691]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-06.53.36:267][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.03.27-06.53.36:653][702]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-06.53.36:792][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.03.27-06.53.36:879][702]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-06.53.36:879][702]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_WorkingFE0DDD974FF48AB565608BBD1C63B879.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-06.53.36:887][702]LogFileHelpers: Saving map 'Pokko_Working' took 0.126
+[2026.03.27-06.53.36:898][702]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 20.3 sec)
+[2026.03.27-06.53.36:903][702]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-06.53.36:903][702]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-06.53.38:009][766]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.53.38:015][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.53.38:015][766]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:53:38 PM)
+[2026.03.27-06.53.38:015][766]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.53.38:038][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021745s)
+[2026.03.27-06.53.38:038][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.021793s)
+[2026.03.27-06.53.38:052][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.03.27-06.53.38:054][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.53.38:054][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.53.38:054][766]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.53.38:055][766]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2026.03.27-06.53.38:055][766]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.53.38:055][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.53.38:055][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.53.38:055][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.53.38:055][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.53.38:055][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.53.38:057][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.53.38:280][766]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.53.38:281][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.53.38:281][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.53.38:281][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.53.38:281][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=82
+[2026.03.27-06.53.38:281][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=82
+[2026.03.27-06.53.38:283][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=82
+[2026.03.27-06.53.38:283][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=82
+[2026.03.27-06.53.38:283][766]LogInit: FAudioDevice initialized with ID 82.
+[2026.03.27-06.53.38:283][766]LogAudio: Display: Audio Device (ID: 82) registered with world 'Pokko_Working'.
+[2026.03.27-06.53.38:283][766]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 82
+[2026.03.27-06.53.38:373][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.38:373][766]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.53.38:382][766]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.53.38
+[2026.03.27-06.53.38:384][766]LogWorld: Bringing up level for play took: 0.009435
+[2026.03.27-06.53.38:387][766]LogOnline: OSS: Created online subsystem instance for: :Context_126
+[2026.03.27-06.53.38:391][766]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.53.38:401][766]PIE: Server logged in
+[2026.03.27-06.53.38:408][766]PIE: Play in editor total start time 0.393 seconds.
+[2026.03.27-06.53.38:449][766]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.53.39:543][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.39:545][828]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.53.41:521][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.41:538][947]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.53.46:056][217]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.53.48:292][350]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.53.48:292][350]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.53.49:441][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.49:441][416]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.53.49:442][416]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.53.49:450][416]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.53.49:450][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.53.49:455][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.53.49:461][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.53.49:482][416]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-06.53.49:483][416]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 82
+[2026.03.27-06.53.49:483][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2026.03.27-06.53.49:495][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2026.03.27-06.53.49:507][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.03.27-06.53.49:588][417]LogPlayLevel: Display: Destroying online subsystem :Context_126
+[2026.03.27-06.53.50:638][476]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-06.53.50:645][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-06.53.50:645][476]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 8:53:50 PM)
+[2026.03.27-06.53.50:645][476]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.53.50:670][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026089s)
+[2026.03.27-06.53.50:670][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.026146s)
+[2026.03.27-06.53.50:684][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.03.27-06.53.50:689][476]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-06.53.50:689][476]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-06.53.50:690][476]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-06.53.50:690][476]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2026.03.27-06.53.50:690][476]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-06.53.50:690][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-06.53.50:690][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-06.53.50:692][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-06.53.50:692][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-06.53.50:692][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-06.53.50:695][476]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-06.53.50:937][476]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-06.53.50:937][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-06.53.50:937][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-06.53.50:937][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-06.53.50:939][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=83
+[2026.03.27-06.53.50:939][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=83
+[2026.03.27-06.53.50:941][476]LogInit: FAudioDevice initialized with ID 83.
+[2026.03.27-06.53.50:941][476]LogAudio: Display: Audio Device (ID: 83) registered with world 'Pokko_Working'.
+[2026.03.27-06.53.50:941][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=83
+[2026.03.27-06.53.50:941][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=83
+[2026.03.27-06.53.50:941][476]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 83
+[2026.03.27-06.53.51:033][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.51:033][476]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-06.53.51:041][476]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-13.53.51
+[2026.03.27-06.53.51:041][476]LogWorld: Bringing up level for play took: 0.006189
+[2026.03.27-06.53.51:043][476]LogOnline: OSS: Created online subsystem instance for: :Context_127
+[2026.03.27-06.53.51:047][476]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-06.53.51:055][476]PIE: Server logged in
+[2026.03.27-06.53.51:067][476]PIE: Play in editor total start time 0.423 seconds.
+[2026.03.27-06.53.51:103][476]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-06.53.52:089][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.52:089][530]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.53.54:067][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.53.54:083][645]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-06.53.58:589][908]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-06.54.00:488][ 14]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-06.54.00:488][ 14]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-06.54.33:540][969]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-06.54.49:476][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.55.05:451][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-06.55.05:451][717]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-06.55.05:451][717]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-06.55.05:460][717]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-06.55.05:463][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.55.05:468][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-06.55.05:477][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-06.55.05:501][717]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 83
+[2026.03.27-06.55.05:501][717]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2026.03.27-06.55.05:507][717]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2026.03.27-06.55.05:518][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.03.27-06.55.05:590][718]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2026.03.27-06.55.06:237][756]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9605.532227
+[2026.03.27-06.55.06:637][780]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-06.55.06:637][780]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9605.913086, Update Interval: 334.902802
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0xa5e56880090 [can pipeline])
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 2 (Closing connection 2)
+[2026.03.27-06.57.17:126][653]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912
+[2026.03.27-06.57.18:453][657]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 0 (Found bundle for host: 0xa5df7160e40 [serially])
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.03.27-06.57.18:453][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 7 (Closing connection)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 9 (Send failure: Connection was reset)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B372CA784-4E2B-8031-7856-AEB015D8227B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=5c7aa6a549c0136dca992e80807b9a40%7C4102626a929841f4a08af8344ca39c61%7C7c9e10df-ac07-4e54-ae04-70e96a164e69&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 12 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: 00000A5E9DEBC300: libcurl info message cache 13 (Closing connection)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0xa5e56880090 [can pipeline])
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 1 (Re-using existing connection! (#0) with host api.epicgames.dev)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 2 (Connected to api.epicgames.dev (104.18.124.108) port 443 (#0))
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 5 (We are completely uploaded and fine)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 8 (Closing connection 0)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 9 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 10 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 11 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: 00000A5EC47B5A00: libcurl info message cache 12 (Closing connection 3)
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.03.27-06.57.18:455][657]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912
+[2026.03.27-06.57.18:455][657]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B372CA784-4E2B-8031-7856-AEB015D8227B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=5c7aa6a549c0136dca992e80807b9a40%7C4102626a929841f4a08af8344ca39c61%7C7c9e10df-ac07-4e54-ae04-70e96a164e69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2026.03.27-06.57.18:786][658]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.57.18:786][658]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.57.18:786][658]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.57.18:786][658]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 4 (Closing connection 4)
+[2026.03.27-06.57.18:786][658]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912
+[2026.03.27-06.57.19:789][661]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogHttp: 00000A5EC47B6C00: libcurl info message cache 6 (Closing connection 5)
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.1-27379709&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=0C2CECE84B436D432CE7BEB7E2928912
+[2026.03.27-06.57.20:119][662]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2026.03.27-06.57.20:321][662]Could not fetch the local adapter addresses
+[2026.03.27-06.57.20:321][662]LogUdpMessaging: Display: Added local interface '0.0.0.0' to multicast group '230.0.0.1:6666'
+[2026.03.27-06.58.01:155][785]LogEOSSDK: Warning: LogHttp: 00000A5EC47B4E00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.58.01:155][785]LogEOSSDK: Warning: LogHttp: 00000A5EC47B4E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.58.01:155][785]LogEOSSDK: Warning: LogHttp: 00000A5EC47B4E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.58.01:155][785]LogEOSSDK: Warning: LogHttp: 00000A5EC47B4E00: libcurl info message cache 1 (Closing connection 6)
+[2026.03.27-06.58.01:155][785]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.03.27-06.58.01:827][787]LogHttp: Warning: 00000A5E9DEBCD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.58.01:827][787]LogHttp: Warning: 00000A5E9DEBCD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.03.27-06.58.01:827][787]LogHttp: Warning: 00000A5E9DEBCD00: libcurl info message cache 1 (Closing connection)
+[2026.03.27-06.58.01:827][787]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B372CA784-4E2B-8031-7856-AEB015D8227B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=5c7aa6a549c0136dca992e80807b9a40%7C4102626a929841f4a08af8344ca39c61%7C7c9e10df-ac07-4e54-ae04-70e96a164e69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2026.03.27-06.59.01:162][965]LogEOSSDK: Warning: LogHttp: 00000A5EC47B1E00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.03.27-06.59.01:162][965]LogEOSSDK: Warning: LogHttp: 00000A5EC47B1E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.59.01:162][965]LogEOSSDK: Warning: LogHttp: 00000A5EC47B1E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.03.27-06.59.01:162][965]LogEOSSDK: Warning: LogHttp: 00000A5EC47B1E00: libcurl info message cache 1 (Closing connection 7)
+[2026.03.27-06.59.01:162][965]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B331522BB-47A2-35E7-5590-B5B43AD48782%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.03.27-06.59.01:832][967]LogHttp: Warning: 00000A5E9DEB2D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.03.27-06.59.01:832][967]LogHttp: Warning: 00000A5E9DEB2D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.03.27-06.59.01:832][967]LogHttp: Warning: 00000A5E9DEB2D00: libcurl info message cache 1 (Closing connection)
+[2026.03.27-06.59.01:832][967]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B372CA784-4E2B-8031-7856-AEB015D8227B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=5c7aa6a549c0136dca992e80807b9a40%7C4102626a929841f4a08af8344ca39c61%7C7c9e10df-ac07-4e54-ae04-70e96a164e69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2026.03.27-07.00.29:977][241]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-07.00.30:028][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.03.27-07.00.30:468][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-07.00.30:618][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.27-07.00.30:693][254]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-07.00.30:693][254]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_WorkingA23922C9498BD014948CB781E786165E.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-07.00.30:702][254]LogFileHelpers: Saving map 'Pokko_Working' took 0.113
+[2026.03.27-07.00.30:711][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 20.6 sec)
+[2026.03.27-07.00.30:713][254]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-07.00.30:713][254]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-07.00.31:246][282]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-07.00.31:253][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-07.00.31:253][282]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 9:00:31 PM)
+[2026.03.27-07.00.31:253][282]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.00.31:280][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026265s)
+[2026.03.27-07.00.31:280][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.026318s)
+[2026.03.27-07.00.31:296][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.03.27-07.00.31:298][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-07.00.31:298][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-07.00.31:299][282]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-07.00.31:299][282]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2026.03.27-07.00.31:299][282]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-07.00.31:299][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-07.00.31:299][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-07.00.31:299][282]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-07.00.31:299][282]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-07.00.31:299][282]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-07.00.31:302][282]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-07.00.31:532][282]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-07.00.31:534][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-07.00.31:534][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-07.00.31:534][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-07.00.31:534][282]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=84
+[2026.03.27-07.00.31:534][282]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=84
+[2026.03.27-07.00.31:537][282]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=84
+[2026.03.27-07.00.31:537][282]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=84
+[2026.03.27-07.00.31:537][282]LogInit: FAudioDevice initialized with ID 84.
+[2026.03.27-07.00.31:537][282]LogAudio: Display: Audio Device (ID: 84) registered with world 'Pokko_Working'.
+[2026.03.27-07.00.31:537][282]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 84
+[2026.03.27-07.00.31:634][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.00.31:634][282]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-07.00.31:643][282]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-14.00.31
+[2026.03.27-07.00.31:644][282]LogWorld: Bringing up level for play took: 0.009519
+[2026.03.27-07.00.31:646][282]LogOnline: OSS: Created online subsystem instance for: :Context_128
+[2026.03.27-07.00.31:650][282]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-07.00.31:658][282]PIE: Server logged in
+[2026.03.27-07.00.31:668][282]PIE: Play in editor total start time 0.414 seconds.
+[2026.03.27-07.00.31:713][282]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-07.00.32:715][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.00.32:716][331]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.00.34:696][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.00.34:715][435]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.00.39:233][666]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-07.00.41:273][770]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-07.00.41:273][770]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-07.01.15:055][525]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-07.01.29:640][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.01.35:979][609]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9995.282227
+[2026.03.27-07.01.36:417][632]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-07.01.36:417][632]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9995.703125, Update Interval: 337.814270
+[2026.03.27-07.01.42:885][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.01.42:886][963]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.01.42:886][963]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-07.01.42:895][963]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-07.01.42:895][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.01.42:900][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-07.01.42:910][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.01.42:927][963]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-07.01.42:929][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 84
+[2026.03.27-07.01.42:929][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2026.03.27-07.01.42:938][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2026.03.27-07.01.42:952][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.03.27-07.01.43:037][964]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2026.03.27-07.02.34:062][813]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-07.02.34:071][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-07.02.34:071][813]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 9:02:34 PM)
+[2026.03.27-07.02.34:071][813]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.02.34:096][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024692s)
+[2026.03.27-07.02.34:096][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.024885s)
+[2026.03.27-07.02.34:110][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.03.27-07.02.34:114][813]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-07.02.34:114][813]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-07.02.34:115][813]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-07.02.34:115][813]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2026.03.27-07.02.34:115][813]LogAudio: Display: Creating Audio Device:                 Id: 85, Scope: Unique, Realtime: True
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-07.02.34:115][813]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-07.02.34:116][813]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-07.02.34:116][813]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-07.02.34:116][813]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-07.02.34:116][813]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-07.02.34:116][813]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-07.02.34:118][813]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-07.02.34:343][813]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-07.02.34:343][813]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-07.02.34:343][813]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-07.02.34:343][813]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-07.02.34:344][813]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=85
+[2026.03.27-07.02.34:344][813]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=85
+[2026.03.27-07.02.34:348][813]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=85
+[2026.03.27-07.02.34:348][813]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=85
+[2026.03.27-07.02.34:348][813]LogInit: FAudioDevice initialized with ID 85.
+[2026.03.27-07.02.34:348][813]LogAudio: Display: Audio Device (ID: 85) registered with world 'Pokko_Working'.
+[2026.03.27-07.02.34:348][813]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 85
+[2026.03.27-07.02.34:446][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.02.34:447][813]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-07.02.34:454][813]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-14.02.34
+[2026.03.27-07.02.34:456][813]LogWorld: Bringing up level for play took: 0.008185
+[2026.03.27-07.02.34:457][813]LogOnline: OSS: Created online subsystem instance for: :Context_129
+[2026.03.27-07.02.34:461][813]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-07.02.34:470][813]PIE: Server logged in
+[2026.03.27-07.02.34:479][813]PIE: Play in editor total start time 0.409 seconds.
+[2026.03.27-07.02.34:521][813]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-07.02.35:535][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.02.35:536][863]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.02.37:528][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.02.37:547][970]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.02.42:044][210]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-07.02.44:701][349]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-07.02.44:701][349]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-07.03.18:063][140]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-07.03.32:638][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.03.34:123][992]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_ExecutionSequence in object Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0338
+[2026.03.27-07.03.41:189][992]LogViewport: Scene viewport resized to 739x739, mode Windowed.
+[2026.03.27-07.03.43:842][992]LogViewport: Scene viewport resized to 1271x1468, mode Windowed.
+[2026.03.27-07.04.14:159][992]LogViewport: Scene viewport resized to 1083x1468, mode Windowed.
+[2026.03.27-07.04.19:190][992]LogViewport: Scene viewport resized to 1082x1468, mode Windowed.
+[2026.03.27-07.04.19:244][992]LogViewport: Scene viewport resized to 1071x1468, mode Windowed.
+[2026.03.27-07.04.19:293][992]LogViewport: Scene viewport resized to 1048x1468, mode Windowed.
+[2026.03.27-07.04.19:347][992]LogViewport: Scene viewport resized to 1022x1468, mode Windowed.
+[2026.03.27-07.04.19:409][992]LogViewport: Scene viewport resized to 1013x1468, mode Windowed.
+[2026.03.27-07.04.19:523][992]LogViewport: Scene viewport resized to 1012x1468, mode Windowed.
+[2026.03.27-07.04.19:565][992]LogViewport: Scene viewport resized to 1011x1468, mode Windowed.
+[2026.03.27-07.04.19:607][992]LogViewport: Scene viewport resized to 1009x1468, mode Windowed.
+[2026.03.27-07.04.19:644][992]LogViewport: Scene viewport resized to 1008x1468, mode Windowed.
+[2026.03.27-07.04.23:249][992]LogViewport: Scene viewport resized to 958x1468, mode Windowed.
+[2026.03.27-07.04.29:372][992]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_ExecutionSequence in object Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0344
+[2026.03.27-07.05.08:782][992]LogViewport: Scene viewport resized to 1214x1468, mode Windowed.
+[2026.03.27-07.05.12:103][992]LogSlate: Window 'Open Asset' being destroyed
+[2026.03.27-07.05.12:112][992]LogSlate: Window 'Open Asset' being destroyed
+[2026.03.27-07.06.54:158][916]LogViewport: Scene viewport resized to 2551x1468, mode Windowed.
+[2026.03.27-07.06.54:740][916]LogViewport: Scene viewport resized to 1257x1468, mode Windowed.
+[2026.03.27-07.07.14:409][666]LogViewport: Scene viewport resized to 1256x1468, mode Windowed.
+[2026.03.27-07.07.14:459][666]LogViewport: Scene viewport resized to 1230x1468, mode Windowed.
+[2026.03.27-07.07.14:513][666]LogViewport: Scene viewport resized to 1207x1468, mode Windowed.
+[2026.03.27-07.07.14:585][666]LogViewport: Scene viewport resized to 1206x1468, mode Windowed.
+[2026.03.27-07.07.14:634][666]LogViewport: Scene viewport resized to 1199x1468, mode Windowed.
+[2026.03.27-07.07.14:676][666]LogViewport: Scene viewport resized to 1191x1468, mode Windowed.
+[2026.03.27-07.07.49:282][975]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_ExecutionSequence in object Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0338
+[2026.03.27-07.08.18:312][975]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_ExecutionSequence in object Function /Game/Levels/Pokko_Working.Pokko_Working_C:ExecuteUbergraph_Pokko_Working:0344
+[2026.03.27-07.08.25:530][975]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/InspectItems/BP_Item_Curtain.BP_Item_Curtain
+[2026.03.27-07.08.25:530][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-07.08.25:530][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-07.08.33:308][976]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10412.596680
+[2026.03.27-07.08.34:214][ 15]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-07.08.34:214][ 15]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10413.479492, Update Interval: 358.315369
+[2026.03.27-07.08.44:763][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.08.44:763][482]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.08.44:763][482]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-07.08.44:775][482]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-07.08.44:779][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.08.44:787][482]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-07.08.44:796][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.08.44:816][482]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 85
+[2026.03.27-07.08.44:817][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2026.03.27-07.08.44:822][482]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2026.03.27-07.08.44:833][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.03.27-07.08.44:927][483]LogPlayLevel: Display: Destroying online subsystem :Context_129
+[2026.03.27-07.09.05:128][223]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Levels/Pokko_Working.Pokko_Working:PersistentLevel.Pokko_Working without an associated node. The blueprint breakpoint has been removed
+[2026.03.27-07.09.05:128][223]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Levels/Pokko_Working.Pokko_Working:PersistentLevel.Pokko_Working without an associated node. The blueprint breakpoint has been removed
+[2026.03.27-07.09.17:152][648]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-07.09.17:197][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.03.27-07.09.17:721][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-07.09.17:865][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.03.27-07.09.17:946][659]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-07.09.17:946][659]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working919D74CF4EFA9B76DA6352BE6A9CCC19.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-07.09.17:954][659]LogFileHelpers: Saving map 'Pokko_Working' took 0.117
+[2026.03.27-07.09.17:966][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 20.8 sec)
+[2026.03.27-07.09.17:973][659]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-07.09.17:973][659]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-07.09.18:471][675]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-07.09.18:478][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-07.09.18:478][675]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 9:09:18 PM)
+[2026.03.27-07.09.18:478][675]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.09.18:503][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025558s)
+[2026.03.27-07.09.18:503][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.025611s)
+[2026.03.27-07.09.18:518][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.03.27-07.09.18:520][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-07.09.18:520][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-07.09.18:522][675]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-07.09.18:522][675]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2026.03.27-07.09.18:522][675]LogAudio: Display: Creating Audio Device:                 Id: 86, Scope: Unique, Realtime: True
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-07.09.18:522][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-07.09.18:522][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-07.09.18:522][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-07.09.18:522][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-07.09.18:522][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-07.09.18:525][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-07.09.18:756][675]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-07.09.18:756][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-07.09.18:756][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-07.09.18:756][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-07.09.18:757][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=86
+[2026.03.27-07.09.18:757][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=86
+[2026.03.27-07.09.18:759][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=86
+[2026.03.27-07.09.18:759][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=86
+[2026.03.27-07.09.18:759][675]LogInit: FAudioDevice initialized with ID 86.
+[2026.03.27-07.09.18:759][675]LogAudio: Display: Audio Device (ID: 86) registered with world 'Pokko_Working'.
+[2026.03.27-07.09.18:759][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 86
+[2026.03.27-07.09.18:832][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.09.18:832][675]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-07.09.18:843][675]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-14.09.18
+[2026.03.27-07.09.18:843][675]LogWorld: Bringing up level for play took: 0.009837
+[2026.03.27-07.09.18:847][675]LogOnline: OSS: Created online subsystem instance for: :Context_131
+[2026.03.27-07.09.18:850][675]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-07.09.18:895][675]PIE: Server logged in
+[2026.03.27-07.09.18:920][675]PIE: Play in editor total start time 0.443 seconds.
+[2026.03.27-07.09.18:983][675]LogViewport: Scene viewport resized to 1194x1468, mode Windowed.
+[2026.03.27-07.09.20:652][726]LogViewport: Scene viewport resized to 2560x1477, mode Windowed.
+[2026.03.27-07.09.23:157][797]LogViewport: Scene viewport resized to 1194x1468, mode Windowed.
+[2026.03.27-07.09.34:330][974]LogViewport: Scene viewport resized to 1271x1468, mode Windowed.
+[2026.03.27-07.09.39:308][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.09.39:309][117]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.09.41:278][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.09.41:307][180]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.09.45:811][322]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-07.09.48:745][414]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-07.09.48:745][414]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-07.10.22:541][465]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-07.10.37:736][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.11.07:785][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.11.07:785][885]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.11.07:786][885]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-07.11.07:798][885]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-07.11.07:799][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.11.07:881][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-07.11.07:892][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.11.07:916][885]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 86
+[2026.03.27-07.11.07:916][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2026.03.27-07.11.07:919][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2026.03.27-07.11.07:932][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.03.27-07.11.08:163][886]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2026.03.27-07.11.29:654][666]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-07.11.29:704][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.03.27-07.11.30:548][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-07.11.30:672][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.03.27-07.11.30:750][690]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-07.11.30:750][690]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_Working5F6009124C2AC22C6EF81095889FAA0A.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-07.11.30:757][690]LogFileHelpers: Saving map 'Pokko_Working' took 0.111
+[2026.03.27-07.11.30:767][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 21.0 sec)
+[2026.03.27-07.11.30:773][690]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-07.11.30:773][690]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-07.11.46:011][227]BlueprintLog: New page: Compile Pokko_Working
+[2026.03.27-07.11.46:057][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.03.27-07.11.46:874][249]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.27-07.11.47:019][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.03.27-07.11.47:096][249]LogSavePackage: Moving output files for package: /Game/Levels/Pokko_Working
+[2026.03.27-07.11.47:096][249]LogSavePackage: Moving '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Saved/Pokko_WorkingBC0666FD4410181EC0BCB79F34204FCA.tmp' to '../../../../Unsubmitted_Project/Unsubmitted_Project/Unsubmitted/Content/Levels/Pokko_Working.umap'
+[2026.03.27-07.11.47:105][249]LogFileHelpers: Saving map 'Pokko_Working' took 0.116
+[2026.03.27-07.11.47:114][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 239 ms (total: 21.3 sec)
+[2026.03.27-07.11.47:117][249]AssetCheck: New page: Asset Save: Pokko_Working
+[2026.03.27-07.11.47:117][249]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pokko_Working.Pokko_Working
+[2026.03.27-07.11.48:184][280]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.03.27-07.11.48:196][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-07.11.48:196][280]PIE: New page: PIE session: Pokko_Working (Mar 27, 2026, 9:11:48 PM)
+[2026.03.27-07.11.48:196][280]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.11.48:225][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028156s)
+[2026.03.27-07.11.48:225][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pokko_Working.Pokko_Working to /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working (0.028222s)
+[2026.03.27-07.11.48:240][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.03.27-07.11.48:243][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.27-07.11.48:243][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.27-07.11.48:243][280]LogAIModule: Creating AISystem for world Pokko_Working
+[2026.03.27-07.11.48:244][280]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2026.03.27-07.11.48:244][280]LogAudio: Display: Creating Audio Device:                 Id: 87, Scope: Unique, Realtime: True
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-07.11.48:244][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.27-07.11.48:244][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-07.11.48:244][280]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-07.11.48:244][280]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-07.11.48:244][280]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-07.11.48:246][280]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-07.11.48:503][280]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.03.27-07.11.48:505][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-07.11.48:505][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-07.11.48:505][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-07.11.48:505][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=87
+[2026.03.27-07.11.48:505][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=87
+[2026.03.27-07.11.48:507][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=87
+[2026.03.27-07.11.48:507][280]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=87
+[2026.03.27-07.11.48:507][280]LogInit: FAudioDevice initialized with ID 87.
+[2026.03.27-07.11.48:507][280]LogAudio: Display: Audio Device (ID: 87) registered with world 'Pokko_Working'.
+[2026.03.27-07.11.48:507][280]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 87
+[2026.03.27-07.11.48:599][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.11.48:600][280]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.27-07.11.48:608][280]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working up for play (max tick rate 60) at 2026.03.27-14.11.48
+[2026.03.27-07.11.48:609][280]LogWorld: Bringing up level for play took: 0.008271
+[2026.03.27-07.11.48:612][280]LogOnline: OSS: Created online subsystem instance for: :Context_132
+[2026.03.27-07.11.48:614][280]LogLevel: Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2026.03.27-07.11.48:640][280]PIE: Server logged in
+[2026.03.27-07.11.48:664][280]PIE: Play in editor total start time 0.469 seconds.
+[2026.03.27-07.11.48:730][280]LogViewport: Scene viewport resized to 1274x1468, mode Windowed.
+[2026.03.27-07.11.57:245][508]LogViewport: Scene viewport resized to 1271x1468, mode Windowed.
+[2026.03.27-07.11.59:962][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.11.59:962][580]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.12.01:940][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.12.01:970][637]LogLevelSequence: Starting new camera cut: 'CineCameraActor_1'
+[2026.03.27-07.12.06:480][764]LogLevelSequence: Starting new camera cut: 'BP_FirstPersonCharacter_C_0'
+[2026.03.27-07.12.10:008][864]LogScript: Warning: Script Msg: The widget 'WBP_DialogueUI_C_0' was already added to the screen.
+[2026.03.27-07.12.10:008][864]LogScript: Warning: Script Msg called by: BP_DoorManager_C /Game/Levels/UEDPIE_0_Pokko_Working.Pokko_Working:PersistentLevel.BP_DoorManager_C_1
+[2026.03.27-07.12.45:403][850]LogBlueprintUserMessages: [BP_DoorManager_C_1] Bad Ending
+[2026.03.27-07.13.00:374][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.13.15:598][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-07.13.15:598][700]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Pokko_Working
+[2026.03.27-07.13.15:599][700]LogSlate: Window 'Unsubmitted Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.03.27-07.13.15:608][700]LogWorld: UWorld::CleanupWorld for Pokko_Working, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-07.13.15:609][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.13.15:684][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-07.13.15:691][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-07.13.15:713][700]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.27-07.13.15:713][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 87
+[2026.03.27-07.13.15:713][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2026.03.27-07.13.15:721][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2026.03.27-07.13.15:735][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.03.27-07.13.15:943][701]LogPlayLevel: Display: Destroying online subsystem :Context_132
